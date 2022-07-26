@@ -2,6 +2,7 @@ from time import sleep
 import pytest
 from selenium import webdriver
 url = 'http://192.168.99.158:9080/acp-custody/login.html'
+from datetime import datetime
 
 
 def test_login():
@@ -25,9 +26,16 @@ def test_login():
     sleep(1)
     #点击登录按钮
     driver.find_element_by_xpath("//button[@id='login-btn']").click()
+    driver.implicitly_wait(10)
     sleep(3)
+    driver.get_screenshot_as_file(r"C:\Users\zhangbinghui\PycharmProjects\CICDAUTO\img\\aaa.png")
     #断言登录成功
     assert 'cy' in driver.page_source
+    # img_path="C:\Users\zhangbinghui\PycharmProjects\CICDAUTO\img"+datetime.now()
+
+
+
+
 
     sleep(3)
     driver.quit()
