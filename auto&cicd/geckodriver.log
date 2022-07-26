@@ -1,0 +1,28 @@
+1658820140695	geckodriver	INFO	Listening on 127.0.0.1:47349
+1658820143759	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofileilf9vE"
+1658820144631	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofileilf9vE\\search.json.mozlz4", (void 0)))
+1658820147447	Marionette	INFO	Listening on port 47370
+1658820147480	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1658820183345	Marionette	INFO	Stopped listening on port 47370
+
+###!!! [Parent][PGPUParent] Error: RunMessage(msgname=PGPU::Msg_ShutdownVR) Channel closing: too late to send/recv, messages will be lost
+
+1658820404175	geckodriver	INFO	Listening on 127.0.0.1:48493
+1658820407249	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofileOnziSt"
+1658820486814	geckodriver	INFO	Listening on 127.0.0.1:48888
+1658820489871	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofilezJ9uEt"
+1658820490222	Marionette	INFO	Marionette enabled
+1658820490227	Marionette	INFO	Listening on port 48906
+1658820490493	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofilezJ9uEt\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.99.158:9080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.99.158:9080"
+1658820521587	Marionette	INFO	Stopped listening on port 48906
+1658820595064	geckodriver	INFO	Listening on 127.0.0.1:49379
+1658820598098	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofile0iAJQg"
+1658820598469	Marionette	INFO	Marionette enabled
+1658820598474	Marionette	INFO	Listening on port 49392
+1658820598673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofile0iAJQg\\search.json.mozlz4", (void 0)))
+1658820646740	Marionette	INFO	Stopped listening on port 49392
