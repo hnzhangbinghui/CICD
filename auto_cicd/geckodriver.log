@@ -26,3 +26,13 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 1658820598673	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofile0iAJQg\\search.json.mozlz4", (void 0)))
 1658820646740	Marionette	INFO	Stopped listening on port 49392
+1658822200618	geckodriver	INFO	Listening on 127.0.0.1:55700
+1658822203682	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofileGdgivv"
+1658822204266	Marionette	INFO	Marionette enabled
+1658822204272	Marionette	INFO	Listening on port 55714
+1658822204769	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofileGdgivv\\search.json.mozlz4", (void 0)))
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.99.158:9080"
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.99.158:9080"
+JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
+1658822245780	Marionette	INFO	Stopped listening on port 55714
