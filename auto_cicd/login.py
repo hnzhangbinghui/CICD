@@ -6,7 +6,7 @@ from datetime import datetime
 
 
 def test_login():
-    driver = webdriver.Edge()
+    driver = webdriver.Edge(r"D:\Anaconda3\Scripts\MicrosoftWebDriver.exe")
     driver.get(url)
     #隐形等待
     driver.implicitly_wait(20)
