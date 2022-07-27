@@ -8,8 +8,14 @@ url = 'http://192.168.99.158:9080/acp-custody/login.html'
 
 
 def test_login():
+    #设置无头模式
+    options=webdriver.FirefoxOptions()
+    options.add_argument('--headless')
+    options.add_argument("--disable-gpu")
+    driver = webdriver.Firefox(options=options)#设置火狐为headless无界面模式
+
     # driver = webdriver.Edge(r"D:\Anaconda3\Scripts\MicrosoftWebDriver.exe")
-    driver = webdriver.Firefox()
+    # driver = webdriver.Firefox()
     driver.get(url)
     # 隐形等待
     driver.implicitly_wait(20)
