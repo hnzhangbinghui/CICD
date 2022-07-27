@@ -6,7 +6,7 @@ from datetime import datetime
 
 
 def test_login():
-    driver = webdriver.Firefox()
+    driver = webdriver.Edge()
     driver.get(url)
     #隐形等待
     driver.implicitly_wait(20)
@@ -37,7 +37,7 @@ def test_login():
 
 
 
-    sleep(3)
+    sleep(5)
     driver.quit()
 
 
