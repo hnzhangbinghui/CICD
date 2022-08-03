@@ -80,37 +80,57 @@ console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resou
 JavaScript error: http://192.168.99.158:9080/acp-custody/static/yss/1.0.0/js/common.js, line 92: ReferenceError: $ is not defined
 JavaScript error: http://192.168.99.158:9080/acp-custody/static/yss/1.0.0/js/jquery.backstretch.min.js, line 4: ReferenceError: jQuery is not defined
 JavaScript error: http://192.168.99.158:9080/acp-custody/static/yss/1.0.0/yssPath.js, line 3: ReferenceError: udesk is not defined
-O	Listening on port 26877
-1658909982127	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofilePRak83\\search.json.mozlz4", (void 0)))
-1658910003644	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
-1658910073560	geckodriver	INFO	Listening on 127.0.0.1:27262
-1658910076609	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofile9sIp2t"
-1658910076860	Marionette	INFO	Marionette enabled
-1658910076866	Marionette	INFO	Listening on port 27280
-1658910077172	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofile9sIp2t\\search.json.mozlz4", (void 0)))
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.99.158:9080"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.99.158:9080"
-1658910126477	Marionette	INFO	Stopped listening on port 27280
-[Parent 5676, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
-[Parent 5676, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
-[Parent 5676, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
-1658910159063	geckodriver	INFO	Listening on 127.0.0.1:27603
-1658910162124	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofilewh4rav"
-*** You are running in headless mode.
-1658910162385	Marionette	INFO	Marionette enabled
-1658910162388	Marionette	INFO	Listening on port 27622
-1658910162697	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
-[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
-console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofilewh4rav\\search.json.mozlz4", (void 0)))
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.99.158:9080"
-console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.99.158:9080"
-JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
-1658910203167	Marionette	INFO	Stopped listening on port 27622
-1658910348580	geckodriver	INFO	Listening on 127.0.0.1:28405
-1658910351610	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofilevJEnVk"
+JavaScript error: , line 0: NotFoundError: Could not move source file(C:\Users\ZHANGB~1\AppData\Local\Temp\rust_mozprofilePRo219\bookmarkbackups\bookmarks-2022-07-27_26_HN3QheoSxAEfb8JGYbcSuA==.jsonlz4) because it does not exist
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\ZHANGB~1\AppData\Local\Temp\rust_mozprofilePRo219\thumbnails) because it does not exist
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+console.error: services.settings: 
+  Message: AbortError: IndexedDB: main/normandy-recipes-capabilities getLastModified() IndexedDB:  execute() A request was aborted, for example through a call to IDBTransaction.abort.
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: resource://gre/modules/PromiseWorker.jsm, line 106: Error: Could not get children of file(C:\Users\ZHANGB~1\AppData\Local\Temp\rust_mozprofilePRo219\thumbnails) because it does not exist
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+JavaScript error: , line 0: uncaught exception: null
+Firefox\\firefox.exe" "--marionette" "--headless" "--disable-gpu" "-foreground" "-no-remote" "-profile" "C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofilevJEnVk"
 *** You are running in headless mode.
 1658910351860	Marionette	INFO	Marionette enabled
 1658910351864	Marionette	INFO	Listening on port 28423
@@ -121,3 +141,10 @@ console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message f
 console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "http://192.168.99.158:9080"
 JavaScript error: resource://gre/modules/LoginManagerParent.jsm, line 136: TypeError: gRecipeManager is null
 1658910397694	Marionette	INFO	Stopped listening on port 28423
+1658912364926	geckodriver	INFO	Listening on 127.0.0.1:35633
+1658912367974	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofileVd3sH5"
+1658912368229	Marionette	INFO	Marionette enabled
+1658912368233	Marionette	INFO	Listening on port 35655
+1658912368513	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ZHANGB~1\\AppData\\Local\\Temp\\rust_mozprofileVd3sH5\\search.json.mozlz4", (void 0)))
+1658912440338	Marionette	INFO	Stopped listening on port 35655

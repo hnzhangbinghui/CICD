@@ -8,6 +8,7 @@ url = 'http://192.168.99.158:9080/acp-custody/login.html'
 
 
 def test_login():
+    print("打开浏览器")
     # driver = webdriver.Edge(r"D:\Anaconda3\Scripts\MicrosoftWebDriver.exe")
     driver = webdriver.Firefox()
     driver.get(url)
@@ -39,6 +40,7 @@ def test_login():
 
     sleep(5)
     driver.quit()
+    print("关闭浏览器")
 
 
 if __name__ == '__main__':
